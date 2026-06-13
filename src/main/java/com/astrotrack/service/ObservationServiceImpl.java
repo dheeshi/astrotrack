@@ -19,6 +19,16 @@ public class ObservationServiceImpl implements ObservationService {
     }
 
     @Override
+    public List<Observation> getUserObservations(Long userId) {
+        return observationRepository.findByUserId(userId);
+    }
+
+    @Override
+    public List<Observation> getPublicObservations() {
+        return observationRepository.findByIsPublicTrue();
+    }
+
+    @Override
     public Observation saveObservation(Observation observation) {
         return observationRepository.save(observation);
     }

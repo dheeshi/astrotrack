@@ -42,7 +42,8 @@ public class SecurityConfig {
                         .requestMatchers(
                                 "/api/auth/**",
                                 "/dashboard/**",
-                                "/observations/**"
+                                "/observations/**",
+                                "/nasa/**"
                         ).permitAll()
                         .anyRequest().authenticated()
                 );

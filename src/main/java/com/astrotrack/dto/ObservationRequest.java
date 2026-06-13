@@ -1,24 +1,52 @@
 package com.astrotrack.dto;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 public class ObservationRequest {
 
-   // @NotNull(message = "User ID cannot be null")
     private Long userId;
 
-    @NotBlank(message = "Celestial body name cannot be blank")
+    @NotBlank
     private String celestialBody;
 
+    @Size(max = 5000)
     private String notes;
 
-    // Getters and Setters
-    public Long getUserId() { return userId; }
-    public void setUserId(Long userId) { this.userId = userId; }
+    private boolean publicObservation;
 
-    public String getCelestialBody() { return celestialBody; }
-    public void setCelestialBody(String celestialBody) { this.celestialBody = celestialBody; }
 
-    public String getNotes() { return notes; }
-    public void setNotes(String notes) { this.notes = notes; }
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public String getCelestialBody() {
+        return celestialBody;
+    }
+
+    public void setCelestialBody(String celestialBody) {
+        this.celestialBody = celestialBody;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+
+    public boolean isPublicObservation() {
+        return publicObservation;
+    }
+
+    public void setPublicObservation(boolean publicObservation) {
+        this.publicObservation = publicObservation;
+    }
+
 }

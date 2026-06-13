@@ -48,7 +48,14 @@ public class AuthController {
             // Verify if the incoming raw password matches the encrypted hash in the database
             if (passwordEncoder.matches(authRequest.getPassword(), user.getPassword())) {
                 String token = jwtUtil.generateToken(user.getUsername());
-                return ResponseEntity.ok(new AuthResponse(token));
+
+                return ResponseEntity.ok(
+                        new AuthResponse(
+                                token,
+                                user.getId(),
+                                user.getUsername()
+                        )
+                );
             }
         }
 

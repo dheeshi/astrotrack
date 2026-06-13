@@ -7,5 +7,9 @@ public interface ObservationService {
 
     List<Observation> getAllObservations();
 
+    List<Observation> getUserObservations(Long userId);
+
+    List<Observation> getPublicObservations();
+
     Observation saveObservation(Observation observation);
 }
