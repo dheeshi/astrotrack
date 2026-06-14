@@ -1,5 +1,5 @@
 # IntelliJ
-.idea/
+../.idea/
 *.iml
 
 # Maven
@@ -12,4 +12,4 @@ node_modules/
 *.log
 
 # Environment
-.env
+backend/.env
