@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0053d86-ac6e-41b5-b2c9-c440d023ba0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astrotrack-ui/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/astrotrack-ui/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/AstroTrackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/AstroTrackApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/controller/NasaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/controller/NasaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/controller/ObservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/controller/ObservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/dto/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/dto/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/dto/ObservationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/dto/ObservationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/model/AstronomyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/model/AstronomyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/model/Observation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/model/Observation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/repository/ObservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/repository/ObservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/security/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/security/JwtRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/security/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/security/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/service/AstronomyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/service/AstronomyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/service/ObservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/service/ObservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/service/ObservationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/service/ObservationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/astrotrack/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +43,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dheeshi/projects/AstroTrack&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/dheeshi/projects/AstroTrack/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
