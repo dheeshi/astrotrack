@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0053d86-ac6e-41b5-b2c9-c440d023ba0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/astrotrack/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrotrack-ui/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/astrotrack-ui/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -961,6 +961,7 @@ const handleEditObservation = (obs) => {
                     <option value="Jupiter">Jupiter (Gas Giant)</option>
                     <option value="Saturn">Saturn (Ring Planet)</option>
                     <option value="Venus">Venus</option>
+                    <option value="Moon">Moon</option>
 
                     <option value="Hubble Space Telescope region">Hubble Deep Field / Hubble Region</option>
                     <option value="International Space Station">ISS</option>
