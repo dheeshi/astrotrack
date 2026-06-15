@@ -56,7 +56,7 @@ const [observationToDelete, setObservationToDelete] =
    setLoading(true)
 
    fetch(
-     'http://localhost:8080/dashboard?lat=12.97&lon=77.59'
+     'https://astrotrack.onrender.com/dashboard?lat=12.97&lon=77.59'
    )
      .then(res => res.json())
      .then(data => {
@@ -68,7 +68,7 @@ const [observationToDelete, setObservationToDelete] =
      )
 
    fetch(
-     `http://localhost:8080/observations/user/${userId}`
+     `https://astrotrack.onrender.com/observations/user/${userId}`
    )
      .then(res => res.json())
      .then(data => setObservations(data))
@@ -77,7 +77,7 @@ const [observationToDelete, setObservationToDelete] =
      )
 
   fetch(
-    `http://localhost:8080/observations/public?page=${communityPage}&size=5`
+    `https://astrotrack.onrender.com/observations/public?page=${communityPage}&size=5`
   )
   .then(res => res.json())
   .then(data => {
@@ -92,7 +92,7 @@ const [observationToDelete, setObservationToDelete] =
 
   })
 
-fetch('http://localhost:8080/nasa/apod')
+fetch('https://astrotrack.onrender.com/nasa/apod')
   .then(res => res.json())
   .then(data => {
     console.log("NASA APOD:", data);
@@ -106,7 +106,7 @@ fetch('http://localhost:8080/nasa/apod')
 useEffect(() => {
 
   fetch(
-    `http://localhost:8080/observations/public?page=${communityPage}&size=5`
+    `https://astrotrack.onrender.com/observations/public?page=${communityPage}&size=5`
   )
     .then(res => res.json())
     .then(data => {
@@ -147,7 +147,7 @@ const handleAuthSubmit = (e) => {
         password: authPassword
       }
 
-  fetch(`http://localhost:8080${endpoint}`, {
+  fetch(`https://astrotrack.onrender.com${endpoint}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -215,8 +215,8 @@ const handleAuthSubmit = (e) => {
 
 
 const url = editingId
-  ? `http://localhost:8080/observations/${editingId}`
-  : 'http://localhost:8080/observations'
+  ? `https://astrotrack.onrender.com/observations/${editingId}`
+  : 'https://astrotrack.onrender.com/observations'
 
 const method = editingId
   ? 'PUT'
@@ -254,7 +254,7 @@ method,
   setEditingId(null)
 
   return fetch(
-    `http://localhost:8080/observations/user/${userId}`
+    `https://astrotrack.onrender.com/observations/user/${userId}`
   );
 
 })
@@ -264,7 +264,7 @@ method,
   setObservations(data);
 
   return fetch(
-    `http://localhost:8080/observations/public?page=${communityPage}&size=5`
+    `https://astrotrack.onrender.com/observations/public?page=${communityPage}&size=5`
   );
 
 })
@@ -285,7 +285,7 @@ method,
 const handleDeleteObservation = (id) => {
 
   fetch(
-    `http://localhost:8080/observations/${id}`,
+    `https://astrotrack.onrender.com/observations/${id}`,
     {
       method: 'DELETE',
       headers: {
@@ -295,7 +295,7 @@ const handleDeleteObservation = (id) => {
   )
   .then(() =>
     fetch(
-      `http://localhost:8080/observations/user/${userId}`
+      `https://astrotrack.onrender.com/observations/user/${userId}`
     )
   )
   .then(res => res.json())
@@ -316,7 +316,7 @@ const handleDeleteObservation = (id) => {
     }, 3000);
 
     return fetch(
-      `http://localhost:8080/observations/public?page=${communityPage}&size=5`
+      `https://astrotrack.onrender.com/observations/public?page=${communityPage}&size=5`
     );
 
   })
