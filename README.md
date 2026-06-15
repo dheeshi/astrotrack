@@ -1,134 +1,149 @@
-**🚀 AstroTrack**
+# 🚀 AstroTrack
 
-AstroTrack is a full-stack astronomy observation platform that allows users to record celestial observations, share community posts, and explore astronomy-related information through a modern web application.
+A full-stack astronomy observation platform built with **Java Spring Boot**, **React**, and **PostgreSQL**.
 
-##🌟 Features
-*User Registration & Login
-*JWT Authentication & Authorization
-*Secure Password Encryption using BCrypt
-*Create and Manage Astronomy Observations
-*Community Viewing & Observation Log Sharing
-*NASA API Integration
-*PostgreSQL Cloud Database (Neon)
-*Responsive React Frontend
-*RESTful API Architecture
-*Deployed Backend & Frontend
+---
 
+## 📌 Version
 
-##🛠 Tech Stack
+**Current Version:** v1.0
 
-###Frontend ;
-React
-Vite
-CSS
+---
 
-###Backend ;
-Java 17
-Spring Boot
-Spring Security
-Spring Data JPA
-JWT Authentication
+## ✨ Features
 
-###Database ;
-PostgreSQL (Neon)
+### 🔐 Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- BCrypt Password Encryption
 
-###Deployment ;
-Render (Backend)
-Vercel (Frontend)
+### 🌌 Astronomy Observations
+- Create Observation Logs
+- View Observation History
+- Track Celestial Objects
+- Store Observation Details
+
+### 👥 Community Features
+- Create Community Posts
+- View Shared Posts
+- Community Interaction
+
+### 🚀 NASA Integration
+- NASA API Integration
+- Astronomy Data Retrieval
+
+### ☁️ Deployment
+- Backend hosted on Render
+- Frontend hosted on Vercel
+- PostgreSQL Database on Neon
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | React, Vite |
+| Backend | Spring Boot |
+| Security | Spring Security, JWT |
+| Database | PostgreSQL (Neon) |
+| ORM | Spring Data JPA |
+| Deployment | Render, Vercel |
+
+---
 
 ## 📂 Project Structure
 
 ```text
 AstroTrack/
 │
-├── astrotrack-ui/                    # React Frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── ObservationCard.jsx
-│   │   │   └── CommunityPost.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Observations.jsx
-│   │   │   └── Community.jsx
-│   │   │
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   │
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .env
+├── astrotrack-ui/          # React Frontend
 │
-├── backend/                          # Spring Boot Backend
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/astrotrack/
-│   │   │   │
-│   │   │   │── controller/
-│   │   │   │   ├── AuthController.java
-│   │   │   │   ├── ObservationController.java
-│   │   │   │   ├── CommunityController.java
-│   │   │   │   └── NasaController.java
-│   │   │   │
-│   │   │   ├── service/
-│   │   │   │   ├── ObservationService.java
-│   │   │   │   └── NasaService.java
-│   │   │   │
-│   │   │   ├── repository/
-│   │   │   │   ├── UserRepository.java
-│   │   │   │   └── ObservationRepository.java
-│   │   │   │
-│   │   │   ├── model/
-│   │   │   │   ├── User.java
-│   │   │   │   ├── Observation.java
-│   │   │   │   └── CommunityPost.java
-│   │   │   │
-│   │   │   ├── dto/
-│   │   │   │   ├── AuthRequest.java
-│   │   │   │   └── AuthResponse.java
-│   │   │   │
-│   │   │   ├── security/
-│   │   │   │   ├── SecurityConfig.java
-│   │   │   │   ├── JwtUtil.java
-│   │   │   │   └── JwtRequestFilter.java
-│   │   │   │
-│   │   │   └── AstroTrackApplication.java
-│   │   │
-│   │   └── resources/
-│   │       └── application.properties
-│   │
-│   └── pom.xml
+├── backend/                # Spring Boot Backend
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── model/
+│   ├── dto/
+│   ├── security/
+│   └── resources/
 │
-├── .gitignore
 ├── README.md
-└── LICENSE
+└── .gitignore
 ```
 
+---
 
-##🔐 Key Implementations
-*Stateless JWT Authentication
-*BCrypt Password Hashing
-*CORS Configuration
-*REST API Development
-*PostgreSQL Cloud Integration
-*Secure User Management
+## 🔑 API Modules
 
-##🚀 Live Demo
+1. Authentication API
+   - Register User
+   - Login User
 
-Frontend: [Your Vercel URL]
+2. Observation API
+   - Add Observation
+   - View Observations
+   - Delete Observation
 
-Backend API: [Your Render URL]
+3. Community API
+   - Create Post
+   - View Posts
 
+4. NASA API
+   - Fetch Astronomy Data
 
+---
 
-###👨‍💻 Author
-Dheeshi/Java Full Stack Developer
+## 🗄 Database
+
+### User
+- id
+- username
+- password
+
+### Observation
+- id
+- objectName
+- observationDate
+- location
+- notes
+
+### Community Post
+- id
+- title
+- content
+- createdAt
+
+---
+
+## 🚀 Deployment
+
+### Backend
+- Render
+
+### Frontend
+- Vercel
+
+### Database
+- Neon PostgreSQL
+
+---
+
+## 📷 Screenshots
+
+Add project screenshots here.
+
+---
+
+## 👨‍💻 Author
+
+**Dheeshi M**
+
+Java Full Stack Developer
+
 GitHub: https://github.com/dheeshi
+
+---
+
+⭐ Built to demonstrate Full Stack Development, Spring Security, JWT Authentication, PostgreSQL Integration, REST APIs, and Cloud Deployment.
