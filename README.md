@@ -2,13 +2,6 @@
 
 A full-stack astronomy observation platform built with **Java Spring Boot**, **React**, and **PostgreSQL**.
 
----
-
-## 📌 Version
-
-**Current Version:** v1.0
-
----
 
 ## ✨ Features
 
@@ -21,22 +14,21 @@ A full-stack astronomy observation platform built with **Java Spring Boot**, **R
 ### 🌌 Astronomy Observations
 - Create Observation Logs
 - View Observation History
-- Track Celestial Objects
 - Store Observation Details
+- Edit/Delete Observation
 
 ### 👥 Community Features
 - Create Community Posts
 - View Shared Posts
-- Community Interaction
-
+  
 ### 🚀 NASA Integration
 - NASA API Integration
 - Astronomy Data Retrieval
 
-### ☁️ Deployment
-- Backend hosted on Render
-- Frontend hosted on Vercel
-- PostgreSQL Database on Neon
+### ☁️ Cloud Deployment
+- PostgreSQL Database (Neon)
+- Backend Deployment (Render)
+- Frontend Deployment (Vercel)
 
 ---
 
@@ -84,6 +76,7 @@ AstroTrack/
 2. Observation API
    - Add Observation
    - View Observations
+   - Edit Observation
    - Delete Observation
 
 3. Community API
@@ -97,48 +90,28 @@ AstroTrack/
 
 ## 🗄 Database
 
-### User
-- id
-- username
-- password
+The application currently uses two primary tables:
 
-### Observation
-- id
-- objectName
-- observationDate
-- location
-- notes
+1. Users
+   - Stores authentication data
+   - Passwords encrypted using BCrypt
 
-### Community Post
-- id
-- title
-- content
-- createdAt
-
----
-
-## 🚀 Deployment
-
-### Backend
-- Render
-
-### Frontend
-- Vercel
-
-### Database
-- Neon PostgreSQL
+2. Observations
+   - Stores astronomy observation logs
+   - Linked to registered users
 
 ---
 
 ## 📷 Screenshots
 
-Add project screenshots here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a922a2a-40db-477d-b052-653dd004d101" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa0c2866-29f3-44e5-bee5-93a6a3320364" />
 
 ---
 
 ## 👨‍💻 Author
 
-**Dheeshi M**
+**Dheeshith M**
 
 Java Full Stack Developer
 
